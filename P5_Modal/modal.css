@@ -1,0 +1,77 @@
+header{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner{
+    width: 450px;
+    height: 300px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  
+}
+
+.modal-btn{
+    padding:15px ;
+    background-color: #485749;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    width: 200px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #485749b5;
+    display: grid;
+    place-items: center;
+    z-index: -1;
+    visibility: hidden;
+}
+
+.open-modal{
+    visibility: visible;
+    z-index: 22;
+}
+
+.modal-container{
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+   
+}
+
+p{
+    text-align: center;
+}
+
+.close-btn{
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    color: red;
+}
