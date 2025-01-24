@@ -64,5 +64,6 @@ main{
     display: block;
     color: inherit;
     background-color: aliceblue;
+    text-transform: capitalize ;
 }
 
